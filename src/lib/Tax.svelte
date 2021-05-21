@@ -2,7 +2,7 @@
   export let tax = 0;
 
   let PST = JSON.parse(localStorage.getItem("PST")) ?? false;
-  let GST = JSON.parse(localStorage.getItem("GST")) ?? true;
+  let GST = JSON.parse(localStorage.getItem("GST")) ?? false;
 
   $: localStorage.setItem("PST", JSON.stringify(PST));
   $: localStorage.setItem("GST", JSON.stringify(GST));

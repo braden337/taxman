@@ -4,7 +4,7 @@
   import Tax from "./lib/Tax.svelte";
 
   let centsInput = "";
-  let tax = 0.12;
+  let tax = 0;
 </script>
 
 <main>
