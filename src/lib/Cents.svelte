@@ -10,6 +10,10 @@
 </div>
 
 <style>
+  div {
+    padding: 1rem 1rem 0 1rem;
+  }
+
   input {
     width: 100%;
     height: 100%;
@@ -32,8 +36,8 @@
   div::before {
     content: "¢";
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 1rem;
+    top: 1rem;
     opacity: 0.6;
     transform: rotate(-20deg);
     font-size: 8rem;
