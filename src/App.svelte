@@ -1,4 +1,6 @@
 <script>
+  import "./assets/global.scss";
+
   import Dollars from "./lib/Dollars.svelte";
   import Cents from "./lib/Cents.svelte";
   import Tax from "./lib/Tax.svelte";
