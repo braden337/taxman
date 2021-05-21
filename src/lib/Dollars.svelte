@@ -20,5 +20,6 @@
     font-weight: bold;
     background-color: #000;
     color: #fff;
+    word-break: break-all;
   }
 </style>
