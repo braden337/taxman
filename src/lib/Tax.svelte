@@ -29,7 +29,7 @@
     grid-template-columns: 1fr 1fr;
     font-family: sans-serif;
     grid-gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
   }
 
   h1 {
