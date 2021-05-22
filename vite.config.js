@@ -11,7 +11,7 @@ export default defineConfig({
         background_color: "#000000",
         icons: [
           {
-            src: "Taxman.png",
+            src: "/Taxman.png",
             sizes: "256x256",
             type: "image/png",
           },
